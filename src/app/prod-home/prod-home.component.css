@@ -42,5 +42,7 @@ img {
     width: 250px; /* Specifica la larghezza desiderata */
     height: 180px; /* Specifica l'altezza desiderata */
     object-fit: cover; /* Adatta l'immagine all'area senza deformarla */
+    margin-left:5%;
+    margin-top:5%;
   }
   
