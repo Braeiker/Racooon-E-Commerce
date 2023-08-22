@@ -32,21 +32,21 @@ export interface Product {
       {
         id: 4,
         name: 'Claudia, sleepe girl ',
-        price: 3,
+        price: 450,
         description: 'Claudia, the sleepy girl, is a calm and peaceful presence that can be yours.',
         src:"./assets/img/racoon sleepe boi.jpg"
       },
       {
         id: 4,
-        name: 'Claudia, sleepe girl ',
-        price: 3,
+        name: 'Mario, sleepe girl ',
+        price: 50,
         description: 'Claudia, the sleepy girl, is a calm and peaceful presence that can be yours.',
         src:"./assets/img/racoon sleepe boi.jpg"
       },
       {
         id: 4,
-        name: 'Claudia, sleepe girl ',
-        price: 3,
+        name: 'Albert, sleepe girl ',
+        price: 399,
         description: 'Claudia, the sleepy girl, is a calm and peaceful presence that can be yours.',
         src:"./assets/img/racoon sleepe boi.jpg"
       }

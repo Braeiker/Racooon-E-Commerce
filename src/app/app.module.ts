@@ -20,7 +20,7 @@ import { CommonModule } from '@angular/common';
     BrowserModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      { path: '', component: ProdHomeComponent }, // Cambia il componente in base alle tue esigenze
+      { path: '#', component: ProdHomeComponent }, // Cambia il componente in base alle tue esigenze
       { path: 'test/:id', component: ProductDetailsComponent },
       
     ])
