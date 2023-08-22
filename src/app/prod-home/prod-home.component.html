@@ -1,0 +1,59 @@
+<div class="card1">
+  <div class="card" style="width: 18rem;" *ngFor="let product of productList1">
+    <img class="card-img-top" src="./\src\assets\img\jacke the pizza boi.jpg" alt="Card image cap">
+    <a [routerLink]="'/product/' + product.id"></a>
+    <div class="card-body">
+      <h2>{{ product.name }}</h2>
+      <h1>${{ product.price }}</h1>
+      <p>{{ product.description }}</p>
+      <div class="btn1">
+        <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card2">
+  <div class="card" style="width: 18rem;" *ngFor="let product of productList2">
+    <img class="card-img-top" src="./\src\assets\img\racoon camerad.jpg" alt="Card image cap">
+    <a [routerLink]="'/product/' + product.id"></a>
+    <div class="card-body">
+      <h2>{{ product.name }}</h2>
+      <h1>${{ product.price }}</h1>
+      <p>{{ product.description }}</p>
+      <div class="btn2">
+        <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card3">
+  <div class="card" style="width: 18rem;" *ngFor="let product of productList3">
+    <img class="card-img-top" src="./\src\assets\img\racoon gordido.jpg" alt="Card image cap">
+    <a [routerLink]="'/product/' + product.id"></a>
+    <div class="card-body">
+      <h2>{{ product.name }}</h2>
+      <h1>${{ product.price }}</h1>
+      <p>{{ product.description }}</p>
+      <div class="btn3">
+        <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card3">
+  <div class="card" style="width: 18rem;" *ngFor="let product of productList4">
+    <img class="card-img-top" src="./\src\assets\img\racoon sleepe boi.jpg" alt="Card image cap">
+    <a [routerLink]="'/product/' + product.id"></a>
+    <div class="card-body">
+      <h2>{{ product.name }}</h2>
+      <h1>${{ product.price }}</h1>
+      <p>{{ product.description }}</p>
+      <div class="btn4">
+        <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+  </div>
+</div>
