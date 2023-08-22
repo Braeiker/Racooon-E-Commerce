@@ -17,9 +17,9 @@ export interface Product {
   export const products2 = [
     {
       id: 2,
-      name: 'Korbajova, the Soviet Raccoon',
+      name: 'Wizardo, the magic Raccoon',
       price: 0,
-      description: 'An amazing companion with a rich history and captivating charm. Bring a touch of the Soviet era into your life with Korbajova. Priceless.'
+      description: 'Meet Wizardo, the enchanting raccoon with a touch of magic. This whimsical creature combines the mischievous spirit of a raccoon with the mystique of spellcasting.'
     }
     ];
 
@@ -27,9 +27,9 @@ export interface Product {
   export const products3 = [
     {
       id: 3,
-      name: 'Pablito, the racoon muy gordido',
+      name: 'Pablito, racoon muy gordito',
       price: 299,
-      description: '"Pablito is an irresistibly charming, affectionate, and friendly raccoon. An adorable companion for just 299 monetary units."'
+      description: '"Pablito is an irresistibly charming, affectionate, and friendly raccoon. An adorable companion."'
     }
   ];
 
@@ -38,7 +38,7 @@ export interface Product {
       id: 4,
       name: 'Claudia, sleepe girl ',
       price: 3,
-      description: '"Claudia, the sleepy girl, is a calm and peaceful presence that can be yours for just 3 units."'
+      description: '"Claudia, the sleepy girl, is a calm and peaceful presence that can be yours."'
     }
   ];
 

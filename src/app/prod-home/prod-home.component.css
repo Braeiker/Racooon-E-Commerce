@@ -1,36 +1,41 @@
-.card1,
-.card2,
-.card3,
-.card4 {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 75px; 
- margin-top:15px;
+      
+      .card1,
+      .card2,
+      .card3,
+      .card4 
+       {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 75px; 
+      margin-top:30px;
+      
+      }
+      .card-body[_ngcontent-ng-c4218076753] {
+        flex: 1 1 auto;
+        padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+        color: var(--bs-card-color);
+        height: 430px;
+    }
+      .card4 {
+        margin-left: 82%;
+        margin-top: -666px;
+        
+      }
+  /* BOTTONI BUY */ 
+  .botton {
+    margin-top: 26%;
+    margin-left: 29%;
+    display: flex;
 }
+.botton1[_ngcontent-ng-c2084184086] {
+  margin-top: 44%;
+  margin-left: 29%;
+  display: flex;
+}
+      
+  /* FINE BOTTONI */ 
 
-.btn1 {
-    display: block;
-    margin-top: 50px; /* Aggiunge uno spazio tra i bottoni */
-    text-align: center; /* Allinea il testo al centro del bottone */
-  }
-  .btn2 {
-    display: block;
-    margin-top: 25%; /* Aggiunge uno spazio tra i bottoni */
-    text-align: center; /* Allinea il testo al centro del bottone */
-    
-  }
-  .btn3 {
-    display: block;
-    margin-top: 25px; /* Aggiunge uno spazio tra i bottoni */
-    text-align: center; /* Allinea il testo al centro del bottone */
-  }
-  .btn4 {
-    display: block;
-    margin-top: 10px; /* Aggiunge uno spazio tra i bottoni */
-    text-align: center; /* Allinea il testo al centro del bottone */
-    margin-top:5px;
-  }
-  
+
 .card-body {
     flex: 1 1 auto;
     padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
@@ -39,10 +44,12 @@
 }
 
 img {
-    width: 250px; /* Specifica la larghezza desiderata */
-    height: 180px; /* Specifica l'altezza desiderata */
+    width: 200px; /* Specifica la larghezza desiderata */
+    height: 200px; /* Specifica l'altezza desiderata */
     object-fit: cover; /* Adatta l'immagine all'area senza deformarla */
-    margin-left:5%;
+    margin-left:15%;
     margin-top:5%;
   }
+  
+ 
   
