@@ -18,7 +18,7 @@ export interface Product {
     {
       id: 2,
       name: 'Wizardo, the magic Raccoon',
-      price: 0,
+      price: 100,
       description: 'Meet Wizardo, the enchanting raccoon with a touch of magic. This whimsical creature combines the mischievous spirit of a raccoon with the mystique of spellcasting.'
     }
     ];
@@ -29,7 +29,7 @@ export interface Product {
       id: 3,
       name: 'Pablito, racoon muy gordito',
       price: 299,
-      description: '"Pablito is an irresistibly charming, affectionate, and friendly raccoon. An adorable companion."'
+      description: 'Pablito is an irresistibly charming, affectionate, and friendly raccoon. An adorable companion.'
     }
   ];
 
@@ -38,7 +38,7 @@ export interface Product {
       id: 4,
       name: 'Claudia, sleepe girl ',
       price: 3,
-      description: '"Claudia, the sleepy girl, is a calm and peaceful presence that can be yours."'
+      description: 'Claudia, the sleepy girl, is a calm and peaceful presence that can be yours.'
     }
   ];
 

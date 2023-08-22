@@ -51,5 +51,20 @@ img {
     margin-top:5%;
   }
   
- 
+  .btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #dc3545;
+    --bs-btn-border-color: #dc3545;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #970f1c;
+    --bs-btn-hover-border-color: #970f1c;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #970f1c;
+    --bs-btn-active-border-color: #970f1c;
+    --bs-btn-active-shadow: #970f1c;
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #970f1c;
+    --bs-btn-disabled-border-color: #970f1c;
+}
   
