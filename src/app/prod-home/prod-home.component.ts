@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Product, products, products2, products3, products4 } from '../../prodInVendita'; 
+import { Product, products, } from '../../prodInVendita'; 
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-prod-home',
@@ -8,12 +9,15 @@ import { Product, products, products2, products3, products4 } from '../../prodIn
 })
 export class ProdHomeComponent implements OnInit {
   productList1: Product[] = products;
-  productList2: Product[] = products2;
-  productList3: Product[] = products3;
-  productList4: Product[]= products4;
-
-  constructor() { }
-
+ 
+  
+  constructor(private router: Router) { }
+  
   ngOnInit(): void {
+    // Il metodo ngOnInit è vuoto o può contenere operazioni iniziali
+  }
+
+  navigaAllaSecondaPagina(id:number) {
+      this.router.navigate(['test/'+id]); // Cambia '/seconda' con il percorso corretto
   }
 }

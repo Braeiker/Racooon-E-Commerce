@@ -1,37 +1,30 @@
       
-      .card1,
-      .card2,
-      .card3,
-      .card4 
-       {
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 75px; 
-      margin-top:30px;
+     .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      gap: 75px;
+      margin-top: 1%;
+      margin-bottom: 3%;
+  }
       
-      }
-      .card-body[_ngcontent-ng-c4218076753] {
+      
+      .card-body {
         flex: 1 1 auto;
         padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
         color: var(--bs-card-color);
         height: 430px;
     }
-      .card4 {
-        margin-left: 82%;
-        margin-top: -666px;
-        
-      }
+     
   /* BOTTONI BUY */ 
   .botton {
     margin-top: 26%;
     margin-left: 29%;
     display: flex;
 }
-.botton1[_ngcontent-ng-c2084184086] {
-  margin-top: 44%;
-  margin-left: 29%;
-  display: flex;
-}
+
       
   /* FINE BOTTONI */ 
 
@@ -68,3 +61,17 @@ img {
     --bs-btn-disabled-border-color: #970f1c;
 }
   
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkTesto:hover{
+  cursor: pointer;
+  transition: 250ms;
+  color:goldenrod ;
+  
+}

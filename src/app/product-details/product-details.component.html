@@ -1,0 +1,12 @@
+
+
+<div *ngIf="success">
+    <h2>Product Details</h2>
+  <h3>{{product.name }}</h3>
+  <h4>{{ product.price }}</h4>
+  <p>{{ product .description }}</p>
+</div>
+<div *ngIf="!success">
+    <h3>{{this.error}}</h3>
+    
+  </div>
