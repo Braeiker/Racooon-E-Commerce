@@ -37,18 +37,18 @@ export interface Product {
         src:"./assets/img/racoon sleepe boi.jpg"
       },
       {
-        id: 4,
-        name: 'Mario, sleepe girl ',
-        price: 50,
-        description: 'Claudia, the sleepy girl, is a calm and peaceful presence that can be yours.',
-        src:"./assets/img/racoon sleepe boi.jpg"
+        id: 5,
+        name: 'Alberta, the perfect idiot',
+        price: 10,
+        description: 'This endearing image portrays Alberta carefree slumber in an adorable and candid manner.',
+        src:"./assets/img/Wacoon.jpg"
       },
       {
-        id: 4,
-        name: 'Albert, sleepe girl ',
-        price: 399,
-        description: 'Claudia, the sleepy girl, is a calm and peaceful presence that can be yours.',
-        src:"./assets/img/racoon sleepe boi.jpg"
+        id: 6,
+        name: 'Ionnino, the videogamer ',
+        price: 389,
+        description: 'With lightning-fast reflexes and unmatched strategic skills, Ionnino conquers virtual realms like no other. This artwork celebrates the dedication and passion that define a professional gamers journey.',
+        src:"./assets/img/naonanoman.jpg"
       }
   ];
   

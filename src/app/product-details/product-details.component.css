@@ -1,14 +1,22 @@
 button {
-    padding: 17px 40px;
+    padding: 9px 21px;
     border-radius: 10px;
     border: 0;
     background-color: rgb(255, 56, 86);
-    letter-spacing: 1.5px;
-    font-size: 15px;
+    letter-spacing: -0.2px;
+    font-size: 18px;
     transition: all .3s ease;
     box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px;
     color: hsl(0, 0%, 100%);
-   }
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -7%;
+    font-family: 'Source Code Pro', monospace;
+}
    
    button:hover {
     box-shadow: rgb(201, 46, 70) 0px 7px 0px 0px;
@@ -16,9 +24,16 @@ button {
    
    button:active {
     background-color: rgb(255, 56, 86);
-    /*50, 168, 80*/
     box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
     transform: translateY(5px);
     transition: 200ms;
    }
    
+
+   .textProd {
+    margin-top: -36%;
+    margin-left: 47%;
+}
+.total {
+    margin-top: 3%;
+}

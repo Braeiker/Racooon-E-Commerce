@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef } from '@angular/core';
 import { Router } from '@angular/router'; // Import the Router module
 
 
@@ -9,6 +9,7 @@ import { Router } from '@angular/router'; // Import the Router module
 })
 export class TabSiteComponent {
   constructor(private router: Router) {} // Inject the Router module
+  @ViewChild('badgeLink') badgeLink!: ElementRef;
 
   ngOnInit(): void {
     // Il metodo ngOnInit è vuoto o può contenere operazioni iniziali
